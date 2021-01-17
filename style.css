@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.tab_img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* desktop css code start here */
+
+.desktop_view {
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom_line_deco_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom_line_deco_div {
+    width: 100%;
+    position: absolute;
+    top: 23%;
+    left: -5%;
+}
+
+img.make_it_text_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.make_it_text_div {
+    width: 18%;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+}
+
+img.card_img,
+.free_ship_cir_img,
+.childrean_canvas_img,
+.free_same_cir_img,
+.extended_cir_img,
+.book_img,
+.save_big_text_img,
+.top_line_decoration_img,
+.logo_img,
+.mug_img,
+.small_img_1,
+.small_img_2,
+.small_img_3,
+.small_img_4,
+.small_img_5,
+.small_img_6,
+.small_img_7 {
+    max-width: 100%;
+    height: auto;
+}
+
+.patti_1 {
+    position: absolute;
+    top: 31%;
+    width: 80px;
+    left: 10%;
+}
+
+.patti_2 {
+    position: absolute;
+    top: 0px;
+    left: 28%;
+    width: 30px;
+}
+
+.gudda {
+    position: absolute;
+    top: 6%;
+    left: 57%;
+    width: 65px;
+}
+
+.patti_3 {
+    position: absolute;
+    top: 40%;
+    right: 35%;
+    z-index: -1;
+    width: 80px;
+}
+
+.candy_1 {
+    position: absolute;
+    top: 70%;
+    right: 38%;
+    width: 60px;
+}
+
+.candy_2 {
+    width: 80px;
+    position: absolute;
+    right: 11%;
+    top: 62%;
+}
+
+.candy_3 {
+    width: 30px;
+    position: absolute;
+    right: 12%;
+    top: 20%;
+}
+
+.card_img_div {
+    width: 10%;
+    position: absolute;
+    top: 33%;
+    left: 15%;
+}
+
+.free_ship_cir_div {
+    width: 13%;
+    position: absolute;
+    top: 60%;
+    left: 14%;
+}
+
+.childrean_canvas_img_div {
+    right: 50%;
+    width: 15%;
+    position: absolute;
+    top: 6%;
+}
+
+.free_same_cir_div {
+    width: 14%;
+    position: absolute;
+    left: 44%;
+    top: 37%;
+}
+
+.extended_cir_div {
+    width: 13%;
+    position: absolute;
+    right: 28%;
+    top: 10%;
+}
+
+.book_img_div {
+    width: 13%;
+    position: absolute;
+    right: 17%;
+    top: 38%;
+}
+
+.save_big_text_div {
+    width: 15%;
+    position: absolute;
+    right: 20%;
+    top: 62%;
+}
+
+.top_line_decoration_div {
+    width: 32%;
+    position: absolute;
+    right: -3vw;
+    z-index: -1;
+    top: -11vw;
+}
+
+.logo_img_div {
+    width: 11%;
+    position: absolute;
+    right: 17vw;
+    top: 89%;
+}
+
+.mug_img_div {
+    width: 10%;
+    position: absolute;
+    right: 60%;
+    top: 55%;
+}
+
+.btn_logo,
+.btn_logo_phone {
+    position: relative;
+}
+
+.shop_now_btn {
+    position: absolute;
+    left: 13%;
+    z-index: 103;
+    transform: translateY(87vh);
+}
+
+.cvs_logo {
+    position: absolute;
+    left: 60%;
+    z-index: 50;
+    transform: translateY(88vh);
+}
+
+.shop_now_btn_phone {
+    position: absolute;
+    left: 5%;
+    z-index: 103;
+    height: 8vh;
+    transform: translateY(88vh);
+    width: 39vw;
+}
+
+.phone_cvs_logo {
+    position: absolute;
+    left: 61%;
+    z-index: 50;
+    transform: translateY(89vh);
+    height: 15vh;
+    width: 35vw;
+}
+
+.phone_shopnowimg,
+.phone_cvslogoimg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* media query start */
+
+@media (max-width: 1024px) {
+    .container_TAB {
+        display: block;
+    }
+    .container_PHONE {
+        display: none;
+    }
+    .desktop_view {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .desktop_view {
+        display: block;
+    }
+    .container_TAB {
+        display: none;
+    }
+    .container_PHONE {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_TAB {
+        display: block;
+    }
+    .container_PHONE {
+        display: none;
+    }
+    .desktop_view {
+        display: none;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 176px!important;
+        left: 0!important;
+        width: 100%!important;
+    }
+    .swiper-button-prev {
+        left: 42%!important;
+        right: auto!important;
+        font-weight: 900!important;
+        /* position: absolute!important; */
+        top: 82%!important;
+        color: red!important;
+        z-index: 99!important;
+    }
+    .swiper-button-next {
+        right: 42%!important;
+        left: auto!important;
+        font-weight: 900!important;
+        top: 82%!important;
+        color: red!important;
+        z-index: 99!important;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: absolute!important;
+        bottom: 129px!important;
+        --swiper-navigation-size: 22px!important;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        background: red;
+    }
+    /* img.tab_img {
+        transform: scale(1.1);
+    } */
+}
+
+@media (max-width: 576px) {
+    .container_PHONE {
+        display: block;
+    }
+    .desktop_view {
+        display: none;
+    }
+    .container_TAB {
+        display: none;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 161px!important;
+        left: 0!important;
+        width: 100%!important;
+    }
+    .swiper-button-prev {
+        left: 35%!important;
+        right: auto!important;
+        color: red!important;
+        position: absolute!important;
+        bottom: 145px!important;
+        top: auto!important;
+        z-index: 99!important;
+    }
+    .swiper-button-next {
+        right: 35%!important;
+        left: auto!important;
+        color: red!important;
+        top: auto!important;
+        z-index: 99!important;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0px 6px!important;
+        background: red;
+        position: relative;
+        bottom: -28px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        right: 10px;
+        left: auto;
+        position: absolute!important;
+        bottom: 129px!important;
+        --swiper-navigation-size: 22px!important;
+    }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    img.tab_img {
+        transform: scale(1.4);
+    }
+    img.tab_img {
+        position: absolute;
+        top: 13%;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 161px!important;
+        left: 0!important;
+        width: 100%!important;
+    }
+    .swiper-button-prev {
+        left: 35%!important;
+        right: auto!important;
+        color: red!important;
+        position: absolute!important;
+        bottom: 145px!important;
+        top: auto!important;
+        z-index: 99!important;
+    }
+    .swiper-button-next {
+        right: 35%!important;
+        left: auto!important;
+        color: red!important;
+        top: auto!important;
+        z-index: 99!important;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0px 6px!important;
+        background: red;
+        position: relative;
+        bottom: -28px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        right: 10px;
+        left: auto;
+        position: absolute!important;
+        bottom: 129px!important;
+        --swiper-navigation-size: 22px!important;
+    }
+    .swiper-button-next {
+        right: 44%!important;
+    }
+    .swiper-button-prev {
+        left: 44%!important;
+    }
+}
